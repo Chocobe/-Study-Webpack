@@ -11,6 +11,8 @@
 6. 빌드 실행
 </details>
 
+<img src="https://img.shields.io/badge/webpack-5.30.0-brightgreen"> <img src="https://img.shields.io/badge/webpack_cli-4.6.0-brightgreen">
+
 [상세페이지](https://github.com/Chocobe/-Study-Webpack/tree/master/01-webpack-basic)
 
 
@@ -26,6 +28,10 @@
 4. ``build`` 실행
 5. ``babel`` 사용 전후 비교
 </details>
+
+<img src="https://img.shields.io/badge/webpack-5.30.0-brightgreen"> <img src="https://img.shields.io/badge/webpack_cli-4.6.0-brightgreen">
+<br/>
+<img src="https://img.shields.io/badge/%40babel%2Fcore-7.13.14-yellowgreen"> <img src="https://img.shields.io/badge/%40babel%2Fpreset--env-7.13.12-yellowgreen"> <img src="https://img.shields.io/badge/babel--loader-8.2.2-yellowgreen">
 
 [상세페이지](https://github.com/Chocobe/-Study-Webpack/tree/master/02-webpack-babel)
 
@@ -44,6 +50,10 @@
 6. ``webpack.config.js`` 생성 및 설정
 7. ``build`` 실행 및 확인
 </details>
+
+<img src="https://img.shields.io/badge/webpack-5.30.0-brightgreen"> <img src="https://img.shields.io/badge/webpack_cli-4.6.0-brightgreen">
+<br/>
+<img src="https://img.shields.io/badge/typescript-4.2.3-orange"> <img src="https://img.shields.io/badge/ts--loader-8.1.0-orange">
 
 [상세페이지](https://github.com/Chocobe/-Study-Webpack/tree/master/03-webpack-ts)
 
