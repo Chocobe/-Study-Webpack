@@ -16,7 +16,7 @@ npm init -y
 
 프로젝트가 생성되면 ``package.json`` 파일이 생성 됩니다.
 
-<img src="./readmeAssets/Webpack 의 기본 설정-01-01.png" width="500px"><br/>
+<img src="./readmeAssets/Webpack 의 기본 설정-01-01.png" width="700px"><br/>
 
 
 
@@ -46,7 +46,7 @@ npm i -D webpack webpack-cli
 
 설치가 완료되면, ``package.json`` 에 다음과 같이 ``devDependencies`` 가 추가 됩니다.
 
-<img src="./readmeAssets/Webpack 의 기본 설정-02-01.png" width="500px"><br/>
+<img src="./readmeAssets/Webpack 의 기본 설정-02-01.png" width="700px"><br/>
 
 또한, 프로젝트 ``root`` 경로에 ``package.lock.json`` 파일과 ``node_modules`` 폴더가 생성되며, 설치한 라이브러리가 위치하게 됩니다.
 
@@ -202,7 +202,7 @@ npm run build
 
 정상적으로 ``build`` 가 되었다면, 터미널에 다음과 같은 메시지가 출력 됩니다.
 
-<img src="./readmeAssets/Webpack 의 기본 설정-06-01.png" width="500px"><br/>
+<img src="./readmeAssets/Webpack 의 기본 설정-06-01.png" width="700px"><br/>
 
 
 <br/><br/>
@@ -210,7 +210,7 @@ npm run build
 
 그리고 ``webpack.config.js`` 의 ``output`` 에 설정한 위치에 ``build 결과`` 파일이 생성 됩니다.
 
-<img src="./readmeAssets/Webpack 의 기본 설정-06-02.png" width="500px"><br/>
+<img src="./readmeAssets/Webpack 의 기본 설정-06-02.png" width="700px"><br/>
 
 
 <br/>

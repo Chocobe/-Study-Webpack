@@ -11,7 +11,7 @@
 
 ``webpack`` 만 사용했을 때 build 결과는 다음과 같습니다.
 
-<img src="./readmeAssets/webpack_babel-01-01.png" width="500px"><br/>
+<img src="./readmeAssets/webpack_babel-01-01.png" width="700px"><br/>
 
 
 
@@ -38,7 +38,7 @@
 
 설치가 완료되면, ``package.json`` 의 ``devDependencies`` 에 추가된 것을 확인할 수 있습니다.
 
-<img src="./readmeAssets/webpack_babel-02-01.png" width="500px"><br/>
+<img src="./readmeAssets/webpack_babel-02-01.png" width="700px"><br/>
 
 
 
@@ -112,7 +112,7 @@ module.exports = {
 
 Build 가 완료되면, 다음과 같은 결과물이 생성 됩니다.
 
-<img src="./readmeAssets/webpack_babel-04-01.png" width="500px"><br/>
+<img src="./readmeAssets/webpack_babel-04-01.png" width="700px"><br/>
 
 
 
@@ -130,7 +130,7 @@ Build 가 완료되면, 다음과 같은 결과물이 생성 됩니다.
 
 |babel 사용 전|babel 사용 후|
 |---|---|
-|<img src="./readmeAssets/webpack_babel-01-01.png" width="500px"><br/>|<img src="./readmeAssets/webpack_babel-04-01.png" width="500px"><br/>|
+|<img src="./readmeAssets/webpack_babel-01-01.png" width="700px"><br/>|<img src="./readmeAssets/webpack_babel-04-01.png" width="700px"><br/>|
 
 
 
