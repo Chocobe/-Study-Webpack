@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    // 엄격모드
+    "strict": true,
+    // .js 파일 허용
+    "allowJs": true,
+    // .js 파일의 Type 검사 여부
+    "checkJs": true,
+
+    "noImplicitAny": true,
+
+    // 사용 모듈
+    "module": "ESNext",
+    // 빌드 결과에 적용시킬 모듈버전
+    "target": "ES5",
+    // 빌드 시, 사용할 모듈
+    "lib": ["ESNext", "DOM", "DOM.Iterable"],
+    // Module 처리방식: Node(상대경로)
+    "moduleResolution": "Node",
+
+    // 빌드 결과파일 생성 경로 (webpack 사용 시, webpack 의 output 이 적용됨)
+    "outDir": "dist"
+  },
+
+  "exclude": ["node_modules", "dist"]
+}

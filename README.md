@@ -28,3 +28,19 @@
 </details>
 
 [상세페이지](https://github.com/Chocobe/-Study-Webpack/tree/master/2-webpack-babel)
+
+
+<br/>
+
+
+<details>
+<summary># 3. Webpack 과 TS</summary>
+
+1. Webpack 설정이 완료된 프로젝트 만들기 ([1. Webpack 기본설정](https://github.com/Chocobe/-Study-Webpack/tree/master/1.%20webpack%20%EA%B8%B0%EB%B3%B8%EC%84%A4%EC%A0%95))
+2. ``index.html`` 생성 및 작성
+3. ``app.ts`` 파일 생성 및 작성
+4. ``typescript`` , ``ts-loader`` 설치
+5. ``tsconfig.json`` 생성 및 설정
+6. ``webpack.config.js`` 생성 및 설정
+7. ``build`` 실행 및 확인
+</details>
