@@ -1,5 +1,5 @@
 ##### top
-# Webpack 과 Babel
+# Webpack 과 TS
 
 [돌아가기](https://github.com/Chocobe/-Study-Webpack)
 
