@@ -64,7 +64,14 @@
 <details>
 <summary># 4. Webpack & babel & TS</summary>
 
-
+1. Webpack 설정이 완료된 프로젝트 만들기 ([1. Webpack 기본설정](https://github.com/Chocobe/-Study-Webpack/tree/master/1.%20webpack%20%EA%B8%B0%EB%B3%B8%EC%84%A4%EC%A0%95))
+2. ``index.html`` 생성 및 작성
+3. ``tsconfig.json`` 생성 및 작성
+4. ``app.ts`` 생성 및 작성
+5. 라이브러리 설치
+6. ``webpack.config.js`` 에 ``Babel`` 설정
+7. ``build`` 실행 및 확인
+8. ``babel`` & ``typescript`` 연동시, 알아야 할 점
 </details>
 
-준비중 입니다.
+[상세페이지](https://github.com/Chocobe/-Study-Webpack/tree/master/04-webpack-babel-ts)
