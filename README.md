@@ -75,3 +75,24 @@
 </details>
 
 [상세페이지](https://github.com/Chocobe/-Study-Webpack/tree/master/04-webpack-babel-ts)
+
+
+
+<br/>
+
+
+
+<details>
+<summary># 5. Webpack & SASS</summary>
+
+1. Webpack 설정이 완료된 프로젝트 만들기 ([1. Webpack 기본설정](https://github.com/Chocobe/-Study-Webpack/tree/master/1.%20webpack%20%EA%B8%B0%EB%B3%B8%EC%84%A4%EC%A0%95))
+2. 라이브러리 설치
+3. ``webpack.config.js`` 에 ``sass-loader`` , ``css-loader`` , ``style-loader`` 설정
+4. ``index.html`` 생성 및 작성
+5. ``myStyle.sass`` 생성 및 작성
+6. ``app.js`` 생성 및 작성
+7. ``build`` 실행 및 확인
+8. ``babel`` & ``typescript`` 연동시, 알아야 할 점
+</details>
+
+[상세페이지](https://github.com/Chocobe/-Study-Webpack/tree/master/04-webpack-babel-ts)
