@@ -11,7 +11,7 @@
 6. 빌드 실행
 </details>
 
-<img src="https://img.shields.io/badge/webpack-5.30.0-brightgreen"> <img src="https://img.shields.io/badge/webpack_cli-4.6.0-brightgreen">
+<img src="https://img.shields.io/badge/webpack-5.30.0-brightgreen"> <img src="https://img.shields.io/badge/webpack--cli-4.6.0-brightgreen">
 
 [상세페이지](https://github.com/Chocobe/-Study-Webpack/tree/master/01-webpack-basic)
 
@@ -29,7 +29,7 @@
 5. ``babel`` 사용 전후 비교
 </details>
 
-<img src="https://img.shields.io/badge/webpack-5.30.0-brightgreen"> <img src="https://img.shields.io/badge/webpack_cli-4.6.0-brightgreen">
+<img src="https://img.shields.io/badge/webpack-5.30.0-brightgreen"> <img src="https://img.shields.io/badge/webpack--cli-4.6.0-brightgreen">
 <br/>
 <img src="https://img.shields.io/badge/%40babel%2Fcore-7.13.14-yellowgreen"> <img src="https://img.shields.io/badge/%40babel%2Fpreset--env-7.13.12-yellowgreen"> <img src="https://img.shields.io/badge/babel--loader-8.2.2-yellowgreen">
 
@@ -51,14 +51,16 @@
 7. ``build`` 실행 및 확인
 </details>
 
-<img src="https://img.shields.io/badge/webpack-5.30.0-brightgreen"> <img src="https://img.shields.io/badge/webpack_cli-4.6.0-brightgreen">
+<img src="https://img.shields.io/badge/webpack-5.30.0-brightgreen"> <img src="https://img.shields.io/badge/webpack--cli-4.6.0-brightgreen">
 <br/>
 <img src="https://img.shields.io/badge/typescript-4.2.3-orange"> <img src="https://img.shields.io/badge/ts--loader-8.1.0-orange">
 
 [상세페이지](https://github.com/Chocobe/-Study-Webpack/tree/master/03-webpack-ts)
 
 
+
 <br/>
+
 
 
 <details>
@@ -73,6 +75,12 @@
 7. ``build`` 실행 및 확인
 8. ``babel`` & ``typescript`` 연동시, 알아야 할 점
 </details>
+
+<img src="https://img.shields.io/badge/webpack-5.30.0-brightgreen"> <img src="https://img.shields.io/badge/webpack--cli-4.6.0-brightgreen">
+<br/>
+<img src="https://img.shields.io/badge/%40babel%2Fcore-7.13.14-yellowgreen"> <img src="https://img.shields.io/badge/%40babel%2Fpreset--env-7.13.12-yellowgreen"> <img src="https://img.shields.io/badge/babel--loader-8.2.2-yellowgreen">
+<br/>
+<img src="https://img.shields.io/badge/typescript-4.2.3-orange"> <img src="https://img.shields.io/badge/ts--loader-8.1.0-orange">
 
 [상세페이지](https://github.com/Chocobe/-Study-Webpack/tree/master/04-webpack-babel-ts)
 
@@ -92,7 +100,13 @@
 5. ``myStyle.sass`` 생성 및 작성
 6. ``app.js`` 생성 및 작성
 7. ``build`` 실행 및 확인
-8. ``babel`` & ``typescript`` 연동시, 알아야 할 점
+8. ``Webpack`` & ``SASS`` 연동시, 알아야 할 점
 </details>
 
-[상세페이지](https://github.com/Chocobe/-Study-Webpack/tree/master/04-webpack-babel-ts)
+<img src="https://img.shields.io/badge/webpack-5.30.0-brightgreen"> <img src="https://img.shields.io/badge/webpack--cli-4.6.0-brightgreen">
+<br/>
+<img src="https://img.shields.io/badge/sass-1.32.8-blue"> <img src="https://img.shields.io/badge/sass--loader-11.0.1-blue">
+<br/>
+<img src="https://img.shields.io/badge/css--loader-5.2.0-blue"> <img src="https://img.shields.io/badge/style--loader-2.0.0-blue">
+
+[상세페이지](https://github.com/Chocobe/-Study-Webpack/tree/master/05-webpack-sass)
