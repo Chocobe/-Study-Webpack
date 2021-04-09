@@ -135,3 +135,26 @@
 <img src="https://img.shields.io/badge/css--loader-5.2.0-blue"> <img src="https://img.shields.io/badge/style--loader-2.0.0-blue">
 
 [상세페이지](https://github.com/Chocobe/-Study-Webpack/tree/master/06-webpack-css)
+
+
+
+
+<br/>
+
+
+
+<details>
+<summary># 7. ESLint & Prettier</summary>
+
+1. ``app.js`` 생성 및 작성
+2. 라이브러리 설치
+3. ``ESLint`` 초기화
+4. ``.eslintrc.js`` 또는 ``.eslintrc.json`` 설정
+5. ``VSCode 설정 (settings.json)`` 에 ``저장 시 자동수정 (autoFix)`` 설정
+6. ``prettier`` 설정 추가
+7. ``.eslintrc.json`` 설정시, 주의사항
+</details>
+
+# 벳지
+
+[상세페이지](https://github.com/Chocobe/-Study-Webpack/tree/master/07-eslint-prettier)
