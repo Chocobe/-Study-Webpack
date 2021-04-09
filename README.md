@@ -134,4 +134,4 @@
 <br/>
 <img src="https://img.shields.io/badge/css--loader-5.2.0-blue"> <img src="https://img.shields.io/badge/style--loader-2.0.0-blue">
 
-[상세페이지](https://github.com/Chocobe/-Study-Webpack/tree/master/05-webpack-sass)
+[상세페이지](https://github.com/Chocobe/-Study-Webpack/tree/master/06-webpack-css)
