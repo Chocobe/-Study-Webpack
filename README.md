@@ -158,3 +158,33 @@
 <img src="https://img.shields.io/badge/eslint-7.23.0-red"> <img src="https://img.shields.io/badge/eslint--config--prettier-8.1.0-red"> <img src="https://img.shields.io/badge/eslint--plugin--prettier-3.3.1-red"> <img src="https://img.shields.io/badge/prettier-2.2.1-red">
 
 [상세페이지](https://github.com/Chocobe/-Study-Webpack/tree/master/07-eslint-prettier)
+
+
+
+<br/>
+
+
+
+<details>
+<summary># 8. Webpack & TS & ESLint & Prettier 테스트 프로젝트</summary>
+
+1. VSCode 의 작업영역에 ``저장시 자동수정`` 기능 설정
+2. ``index.html`` 생성 및 작성
+3. ``app.ts`` 생성 및 작성
+4. ``webpack`` , ``webpack-cli`` , ``html-webpack-plugin`` , ``webpack-dev-server``, ``typescript`` , ``ts-loader`` 설치
+5. ``tsconfig.js`` 생성 및 작성
+6. ``webpack.config.js`` 생성 및 설정
+7. ``eslint`` , ``@typescript-eslint/parser`` , ``@typescript-eslint/eslint-plugin`` 설치
+8. ``ESLint 초기화`` 실행 및 설정
+9. ``prettier`` , ``eslint-config-prettier`` , ``eslint-plugin-prettier`` 설치
+10. ``.eslintrc.json`` 에 ``Prettier`` 설정 추가
+11. ``Webpack`` & ``Typescript`` & ``ESLint`` & ``Prettier`` 연동시, 알아야 할 점
+</details>
+
+<img src="https://img.shields.io/badge/webpack-5.30.0-brightgreen"> <img src="https://img.shields.io/badge/webpack--cli-4.6.0-brightgreen"> <img src="https://img.shields.io/badge/webpack--dev--server-3.11.2-brightgreen"> <img src="https://img.shields.io/badge/html--webpack--plugin-5.3.1-brightgreen">
+<br/>
+<img src="https://img.shields.io/badge/typescript-4.2.3-orange"> <img src="https://img.shields.io/badge/ts--loader-8.1.0-orange">
+<br/>
+<img src="https://img.shields.io/badge/eslint-7.23.0-red"> <img src="https://img.shields.io/badge/eslint--config--prettier-8.1.0-red"> <img src="https://img.shields.io/badge/eslint--plugin--prettier-3.3.1-red"> <img src="https://img.shields.io/badge/prettier-2.2.1-red">
+
+[상세페이지](https://github.com/Chocobe/-Study-Webpack/tree/master/08-webpack-ts-eslint-prettier)
