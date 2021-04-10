@@ -155,6 +155,6 @@
 7. ``.eslintrc.json`` 설정시, 주의사항
 </details>
 
-# 벳지
+<img src="https://img.shields.io/badge/eslint-7.23.0-red"> <img src="https://img.shields.io/badge/eslint--config--prettier-8.1.0-red"> <img src="https://img.shields.io/badge/eslint--plugin--prettier-3.3.1-red"> <img src="https://img.shields.io/badge/prettier-2.2.1-red">
 
 [상세페이지](https://github.com/Chocobe/-Study-Webpack/tree/master/07-eslint-prettier)
