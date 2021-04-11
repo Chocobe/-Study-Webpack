@@ -1,0 +1,23 @@
+.main {
+  $color-01: #03a9f4;
+  $color-02: #ff1493;
+  $color-03: #006400;
+
+  font-size: 20px;
+  margin-bottom: 20px;
+
+  &-name {
+    color: $color-01;
+    font-weight: 900;
+  }
+
+  &-id {
+    color: $color-02;
+    font-weight: 900;
+  }
+
+  &-active {
+    color: $color-03;
+    font-weight: 900;
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "allowJs": true,
+    "checkJs": true,
+
+    "target": "ES5",
+    "module": "ESNext",
+    "lib": ["ESNext", "DOM", "DOM.Iterable"],
+    "moduleResolution": "Node",
+
+    "noEmit": true
+  },
+  "exclude": ["./node_modules", "./dist"]
+}

@@ -166,7 +166,7 @@
 
 
 <details>
-<summary># 8. Webpack & TS & ESLint & Prettier 테스트 프로젝트</summary>
+<summary># 8. Webpack & TS & ESLint & Prettier</summary>
 
 1. VSCode 의 작업영역에 ``저장시 자동수정`` 기능 설정
 2. ``index.html`` 생성 및 작성
@@ -188,3 +188,26 @@
 <img src="https://img.shields.io/badge/eslint-7.23.0-red"> <img src="https://img.shields.io/badge/eslint--config--prettier-8.1.0-red"> <img src="https://img.shields.io/badge/eslint--plugin--prettier-3.3.1-red"> <img src="https://img.shields.io/badge/prettier-2.2.1-red">
 
 [상세페이지](https://github.com/Chocobe/-Study-Webpack/tree/master/08-webpack-ts-eslint-prettier)
+
+
+
+<br/>
+
+
+# 9-webpack-babel-ts-sass-eslint-prettier
+
+지금까지 Webpack 관련 설정들에 대한 종합 예제 프로젝트 입니다.
+
+<img src="https://img.shields.io/badge/webpack-5.30.0-brightgreen"> <img src="https://img.shields.io/badge/webpack--cli-4.6.0-brightgreen"> <img src="https://img.shields.io/badge/webpack--dev--server-3.11.2-brightgreen"> <img src="https://img.shields.io/badge/html--webpack--plugin-5.3.1-brightgreen">
+<br/>
+<img src="https://img.shields.io/badge/%40babel%2Fcore-7.13.14-yellowgreen"> <img src="https://img.shields.io/badge/%40babel%2Fpreset--env-7.13.12-yellowgreen"> <img src="https://img.shields.io/badge/babel--loader-8.2.2-yellowgreen">
+<br/>
+<img src="https://img.shields.io/badge/typescript-4.2.3-orange">
+<br/>
+<img src="https://img.shields.io/badge/sass-1.32.8-blue"> <img src="https://img.shields.io/badge/sass--loader-11.0.1-blue">
+<br/>
+<img src="https://img.shields.io/badge/css--loader-5.2.0-blue"> <img src="https://img.shields.io/badge/style--loader-2.0.0-blue">
+<br/>
+<img src="https://img.shields.io/badge/eslint-7.23.0-red"> <img src="https://img.shields.io/badge/eslint--config--prettier-8.1.0-red"> <img src="https://img.shields.io/badge/eslint--plugin--prettier-3.3.1-red"> <img src="https://img.shields.io/badge/prettier-2.2.1-red">
+
+[상세페이지](https://github.com/Chocobe/-Study-Webpack/tree/master/09-webpack-babel-ts-sass-eslint-prettier)

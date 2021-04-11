@@ -1,0 +1,21 @@
+.box01 {
+  width: 500px;
+  height: 500px;
+  background-color: #ff1493;
+
+  margin-bottom: 20px;
+}
+
+.box02 {
+  width: 500px;
+  height: 250px;
+  background-color: #03a9f4;
+
+  margin-bottom: 20px;
+}
+
+.box03 {
+  width: 500px;
+  height: 500px;
+  background-color: #006400;
+}
