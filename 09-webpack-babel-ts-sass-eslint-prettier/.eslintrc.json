@@ -25,11 +25,14 @@
       "prettier/prettier": [
         "error",
         {
-          "semi": true,
           "singleQuote": false,
-          "useTabs": true,
-          "tabwidth": 2,
-          "tailingComma": true
+          "semi": true,
+          "useTabs": false,
+          "tabWidth": 2,
+          "trailingComma": "all",
+          "printWidth": 80,
+          "bracketSpacing": true,
+          "arrowParens": "avoid"
         }
       ]
     }
