@@ -1,6 +1,11 @@
 {
+  // ESLint 자동저장 설정
   "editor.formatOnSave": false,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
-  }
+  },
+
+  // 코드블록 표시하기 설정
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs":"active"
 }
