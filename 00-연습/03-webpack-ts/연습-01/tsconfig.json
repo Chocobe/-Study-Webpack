@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "strict": true,
+
+    "allowJs": true,
+    "checkJs": true,
+    
+    "target": "ESNext",
+    "module": "commonjs",
+    "lib": ["ESNext", "DOM", "DOM.Iterable"],
+    "esModuleInterop": true,
+
+    "moduleResolution": "Node",
+
+    // noEmit: false(기본설정값) 이르모, "outDir" 를 설정해줘야 tsconfig.json 에러가 해결된다.
+    "outDir": "dist",
+  },
+
+  "exclude": ["node_modules", "dist"]
+}
