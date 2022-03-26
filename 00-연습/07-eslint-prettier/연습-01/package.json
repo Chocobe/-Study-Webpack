@@ -1,0 +1,18 @@
+{
+  "name": "eslint-prettier-01",
+  "version": "1.0.0",
+  "description": "eslint-prettier 연습 01",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --fix ."
+  },
+  "author": "김영우",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.12.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.6.1"
+  }
+}
