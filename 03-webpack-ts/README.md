@@ -238,3 +238,105 @@ module.exports = {
 [🔺 Top](#top)
 
 <br/><hr/><br/>
+
+
+
+## 8. ``alias`` 설정
+
+``import`` 문을 사용할 때, 특정 경로에 대한 명칭을 지정할 수 있습니다.
+
+``Javascript`` 만 사용할 경우에는 ``webpack.config.js`` 의 ``resolve.alias`` 에서 설정할 수 있습니다.
+
+```javascript
+// webpack.config.js
+
+var path = require("path");
+
+module.exports = {
+  mode: "none",
+  entry: "./app.ts",
+  output: {
+    filename: "app.bundle.js",
+    path: path.resolve(__dirname, "dist")
+  },
+
+  module: {
+    rules: [
+      {
+        test: /\.(t|j)sx?$/,
+        use: "ts-loader",
+        exclude: /(node_modules|dist)/
+      }
+    ]
+  },
+
+  resolve: {
+    alias: {
+      "@": path.resolve(__dirname, "src")
+    }
+  }
+}
+```
+
+<br />
+
+위 처럼 ``webpack.config.js`` 를 설정한 후, ``src/RandomNum.js`` 파일을 ``import`` 한다면, 다음과 같이 사용할 수 있습니다.
+
+```javascript
+// app.js
+
+// 가져온 경로: "./src/RandomNum"
+import RandomNum from "@/RandomNum";
+```
+
+<br />
+
+여기서 ``Typescript`` 파일을 ``import`` 하려면, ``tsconfig.json`` 에 ``paths`` 설정을 추가해 주어야 합니다.
+
+``webpack`` 의 경우는 ``Build`` 할 때 영향을 받는 설정이지만, ``typescript`` 는 컴파일 전 시점에서 별도로 동작하기 때문입니다.
+
+```json
+{
+  "compilerOptions": {
+    // 엄격모드
+    "strict": true,
+    // .js 파일 허용
+    "allowJs": true,
+    // .js 파일의 Type 검사 여부
+    "checkJs": true,
+
+    // 사용 모듈
+    "module": "ESNext",
+    // 빌드 결과에 적용시킬 모듈버전
+    "target": "ES5",
+    // 빌드 시, 사용할 모듈
+    "lib": ["ESNext", "DOM", "DOM.Iterable"],
+    // Module 처리방식: Node(상대경로)
+    "moduleResolution": "Node",
+
+    // 빌드 결과파일 생성 경로 (webpack 사용 시, webpack 의 output 이 적용됨)
+    "outDir": "dist",
+
+    // Root 경로 설정
+    "baseUrl": "./",
+    // alias 설정 - webpack.config.js 에서 설정한 alias 와 동일한 경로로 설정하기
+    // => 주의할 점은, ``key`` 와 ``value`` 모두 ``/*`` 를 뒤에 붙여 주어야 합니다.
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+
+  "exclude": ["node_modules", "dist"]
+}
+```
+
+<br />
+
+설정이 완료되면, ``typescript`` 파일을 ``import`` 할 때에도 ``alias`` 를 사용할 수 있습니다.
+
+```typescript
+// app.ts
+
+// 가져온 경로: "./src/RandomNum"
+import RandomNum from "@/RandomNum";
+```

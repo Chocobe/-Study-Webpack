@@ -1,3 +1,5 @@
+import RandomNum from "@/RandomNum";
+
 class User {
   name: string;
   age: number;
@@ -22,6 +24,9 @@ class User {
 function initApp(): void {
   const kim = new User("Kim", 35, true);
   kim.sayHello();
+
+  const randomNum = new RandomNum(1, 10);
+  console.log(randomNum.value);
 }
 
 initApp();

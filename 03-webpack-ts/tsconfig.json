@@ -19,7 +19,12 @@
     "moduleResolution": "Node",
 
     // 빌드 결과파일 생성 경로 (webpack 사용 시, webpack 의 output 이 적용됨)
-    "outDir": "dist"
+    "outDir": "dist",
+
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
   },
 
   "exclude": ["node_modules", "dist"]
