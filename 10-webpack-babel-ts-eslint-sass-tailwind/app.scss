@@ -1,0 +1,64 @@
+* {
+  @apply m-0 p-0;
+
+  box-sizing: border-box;
+}
+
+.sectionWrapper {
+  @apply w-full;
+  @apply py-40 px-20;
+  @apply flex justify-center items-center;
+  @apply bg-gray-900;
+
+  height: 100vh;
+
+  &-section {
+    @apply flex justify-center items-center flex-col;
+
+    width: 400px;
+    height: 400px;
+    
+    border-radius: 50%;
+    background: radial-gradient(#383841 0%, #121212 100%);
+    filter: drop-shadow(0 0 80px #fff);
+
+    animation: animation-filter 3s both infinite ease-out;
+
+    @keyframes animation-filter {
+      0% {
+        filter: none;
+      }
+
+      50% {
+        filter: drop-shadow(0 0 12px #fff);
+      }
+
+      100% {
+        filter: none;
+      }
+    }
+
+    &-person {
+      @apply text-2xl;
+      @apply text-gray-200;
+    }
+
+    &-address {
+      @apply mt-5;
+      @apply text-2xl;
+      @apply text-blue-600;
+    }
+
+    &-phone {
+      @apply mt-6;
+      @apply text-2xl;
+      @apply text-pink-500;
+    }
+
+    &-skill {
+      @apply mt-6;
+      @apply text-2xl;
+      @apply text-cyan-700;
+    }
+  }
+}
