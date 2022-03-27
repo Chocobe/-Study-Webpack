@@ -477,6 +477,39 @@ ___CSS_LOADER_EXPORT___.push([module.id, ".box01 {\n  width: 500px;\n  height: 5
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
 
+/***/ }),
+/* 8 */
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ Greeting)
+/* harmony export */ });
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+var Greeting = /*#__PURE__*/function () {
+  function Greeting(name) {
+    _classCallCheck(this, Greeting);
+
+    this.name = name;
+  }
+
+  _createClass(Greeting, [{
+    key: "sayHello",
+    value: function sayHello(targetName) {
+      console.log("Hello, ".concat(targetName, ". I'm ").concat(this.name));
+    }
+  }]);
+
+  return Greeting;
+}();
+
+
+
 /***/ })
 /******/ 	]);
 /************************************************************************/
@@ -552,6 +585,8 @@ var __webpack_exports__ = {};
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _mainStyle_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
 /* harmony import */ var _boxStyle_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6);
+/* harmony import */ var _Greeting__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(8);
+
 
 
 
@@ -570,6 +605,8 @@ function printUser(id, name, isActive) {
 
 function initApp() {
   printUser(123, "Chocobe", true);
+  var greeting = new _Greeting__WEBPACK_IMPORTED_MODULE_2__.default("Chocobe");
+  greeting.sayHello("Kim");
 }
 
 initApp();
