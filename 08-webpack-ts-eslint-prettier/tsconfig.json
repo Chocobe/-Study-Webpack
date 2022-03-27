@@ -9,7 +9,12 @@
     "lib": ["ESNext", "DOM", "DOM.Iterable"],
     "moduleResolution": "Node",
 
-    "outDir": "dist"
+    "outDir": "dist",
+
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
   },
 
   "exclude": [
