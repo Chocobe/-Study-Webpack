@@ -1,0 +1,36 @@
+* {
+  @apply m-0 p-0;
+  
+  box-sizing: border-box;
+}
+
+.myContainer {
+  @apply w-full;
+  @apply flex justify-center items-center;
+  height: 100vh;
+
+  background-color: #03a9f4;
+
+  &-section {
+    @apply w-full;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    &-title {
+      color: #ddd;
+      font-size: 40px;
+    }
+
+    &-content {
+      margin-top: 20px;
+
+      color: #383841;
+      font-size: 24px;
+
+      @apply bg-green-400;
+    }
+  }
+}
